@@ -6,19 +6,49 @@
 
 <style>
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+    color: #4a148c;
+    padding: 20px;
 }
 
-table {
-    margin-top: 20px;
-    border-collapse: collapse;
-    width: 60%;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 8px;
+h2 {
+    color: #880e4f;
     text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(136, 14, 79, 0.2);
+    width: 60%;
+    margin: 0 auto 20px auto;
+    border: 2px solid #ce93d8;
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid #ba68c8;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="tel"]:focus {
+    border-color: #9c27b0;
+    box-shadow: 0 0 5px rgba(156, 39, 176, 0.4);
+}
+
+button {
+    background-color: #ab47bc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10
 }
 </style>
 
